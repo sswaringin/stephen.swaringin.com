@@ -5,6 +5,8 @@ intro:
   greeting: 'Welcome to my humble abode.'
   whoami: "I'm a software engineer for "
   summary: 'This place houses my latest thoughts, ideas, and learning.'
+  # image: 'images/wait.png'
+  # imageAlt: 'Spiderman pointing at Spiderman'
 company:
   name: 'Skillrev'
   summary: 'We focus on delivering business value for our customers in whatever way that looks, which usually takes the form of well-crafted software.'
