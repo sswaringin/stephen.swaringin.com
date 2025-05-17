@@ -1,23 +1,29 @@
 {% extends "layouts/base.html" %} {% block content %}
 <article>
-  <div>
+  <section>
     <h1>{{ intro.greeting }}</h1>
-    <p>{{ intro.whoami }}</p>
+    <p>{{ intro.summary }}</p>
+  </section>
+  <section>
+    <h2>{{ company.heading }}</h2>
+    <p>{{ company.whoami }}</p>
     <a href="{{ company.url }}">
       <p>{{ company.name }}</p>
     </a>
     <p>{{ company.summary }}</p>
-    <p>{{ learning }}</p>
+  </section>
+  <section>
+    <h2>{{ learning.heading }}</h2>
+    <p>{{ learning.summary }}</p>
     <ul>
-      {%- for fixation in fixations -%}
+      {%- for fixation in learning.fixations -%}
       <li>{{ fixation }}</li>
       {%- endfor -%}
     </ul>
-    <p>{{ intro.summary }}</p>
-    <!-- <div>
+  </section>
+  <!-- <div>
       <img src="{{ intro.image }}" alt="{{ intro.imageAlt }}" />
     </div> -->
-    <p>{{ outro }}</p>
-  </div>
+  <p>{{ outro }}</p>
 </article>
 {% endblock %}
