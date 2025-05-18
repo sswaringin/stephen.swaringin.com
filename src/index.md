@@ -9,7 +9,7 @@ intro:
   # imageAlt: 'Spiderman pointing at Spiderman'
 company:
   heading: 'Work'
-  whoami: "I'm a software engineer for "
+  whoami: "I'm a software engineer for: "
   name: 'Skillrev'
   summary: 'We focus on delivering business value for our customers in whatever way that looks, which usually takes the form of well-crafted software.'
   url: 'https://skillrev.dev/'
