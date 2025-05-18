@@ -5,3 +5,5 @@
 
 @import './css/utilities/wrapper.css';
 @import './css/utilities/flow.css';
+
+@import './css/compositions/cover.css';
