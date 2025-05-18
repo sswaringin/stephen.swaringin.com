@@ -1,0 +1,22 @@
+/* Global variables */
+:root {
+  --border-radius: var(--size-step-1);
+  --color-dark: #131314;
+  --color-light: #f4eded;
+  --font-base: Garamond, sans-serif;
+  --gutter: var(--space-s-m);
+  --size-step--2: clamp(0.7813rem, 0.7191rem + 0.3109vw, 0.96rem);
+  --size-step--1: clamp(0.9375rem, 0.8462rem + 0.4565vw, 1.2rem);
+  --size-step-0: clamp(1.125rem, 0.9946rem + 0.6522vw, 1.5rem);
+  --size-step-1: clamp(1.35rem, 1.1674rem + 0.913vw, 1.875rem);
+  --size-step-2: clamp(1.62rem, 1.3683rem + 1.2587vw, 2.3438rem);
+  --size-step-3: clamp(1.944rem, 1.6012rem + 1.7142vw, 2.9297rem);
+  --size-step-4: clamp(2.3328rem, 1.8704rem + 2.3118vw, 3.6621rem);
+  --size-step-5: clamp(2.7994rem, 2.1808rem + 3.0927vw, 4.5776rem);
+  --transition-base: 250ms ease;
+  --transition-movement: 200ms linear;
+  --transition-fade: 200ms ease;
+  --transition-bounce: 500ms cubic-bezier(0.5, 0.05, 0.2, 1.5);
+  --tracking: -0.05ch;
+  --tracking-s: -0.075ch;
+}
