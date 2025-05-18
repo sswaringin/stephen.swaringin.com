@@ -2,3 +2,5 @@
 @import './css/global/fonts.css';
 @import './css/global/variables.css';
 @import './css/global/global-styles.css';
+
+@import './css/utilities/wrapper.css';

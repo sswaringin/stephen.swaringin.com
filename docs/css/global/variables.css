@@ -4,7 +4,7 @@
   --color-dark: #131314;
   --color-light: #f4eded;
   --font-base: Garamond, sans-serif;
-  --gutter: var(--space-s-m);
+  --gutter: var(--size-step-0);
   --size-step--2: clamp(0.7813rem, 0.7191rem + 0.3109vw, 0.96rem);
   --size-step--1: clamp(0.9375rem, 0.8462rem + 0.4565vw, 1.2rem);
   --size-step-0: clamp(1.125rem, 0.9946rem + 0.6522vw, 1.5rem);
