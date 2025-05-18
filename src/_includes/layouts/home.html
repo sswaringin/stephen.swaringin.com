@@ -1,6 +1,15 @@
 {% extends "layouts/base.html" %} {% block content %}
 <article class="wrapper">
   <section>
+    <h1
+      style="
+        font-family: var(--font-special);
+        font-size: 12rem;
+        letter-spacing: var(--tracking);
+      "
+    >
+      {{ intro.heading }}
+    </h1>
     <h1>{{ intro.greeting }}</h1>
     <p>{{ intro.summary }}</p>
   </section>

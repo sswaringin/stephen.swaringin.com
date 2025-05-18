@@ -4,3 +4,17 @@
   font-weight: 400;
   src: url('/fonts/EBGaramond-VariableFont_wght.ttf');
 }
+
+@font-face {
+  font-family: 'BebasNeue';
+  font-style: normal;
+  font-weight: 400;
+  src: url('/fonts/BebasNeue-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'MrDafoe';
+  font-style: normal;
+  font-weight: 400;
+  src: url('/fonts/MrDafoe-Regular.ttf');
+}

@@ -2,6 +2,7 @@
 title: 'stephen.swaringin.com'
 layout: 'layouts/home.html'
 intro:
+  heading: 'hello'
   greeting: 'Welcome to my humble abode.'
   summary: 'This place houses my latest thoughts, ideas, and learning.'
   # image: 'images/wait.png'
