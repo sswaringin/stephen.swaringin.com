@@ -1,0 +1,15 @@
+.cluster {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--s-0, 1rem);
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.cluster[data-justify='space-between'] {
+  justify-content: space-between;
+}
+
+.cluster[data-justify='flex-end'] {
+  justify-content: flex-end;
+}
