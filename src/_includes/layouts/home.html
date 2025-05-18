@@ -29,8 +29,9 @@
     <section>
       <h2>{{ learning.heading }}</h2>
       <p>{{ learning.summary }}</p>
+      <p>{{ learning.fixations.content }}</p>
       <ul role="list">
-        {%- for fixation in learning.fixations -%}
+        {%- for fixation in learning.fixations.list -%}
         <li>{{ fixation }}</li>
         {%- endfor -%}
       </ul>
