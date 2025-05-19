@@ -32,7 +32,7 @@
       <p>{{ learning.fixations.content }}</p>
       <ul role="list" class="wrapper">
         {%- for fixation in learning.fixations.list -%}
-        <li>{{ fixation }}</li>
+        <li><a href="{{ fixation.url }}">{{ fixation.name }}</a></li>
         {%- endfor -%}
       </ul>
     </section>

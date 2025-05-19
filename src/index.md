@@ -19,10 +19,15 @@ learning:
   fixations:
     content: 'My present fixations:'
     list:
-      - algorithmic layout and design
-      - micro-services and containerization
-      - Svelte
-      - CUBE CSS
-      - 11ty (Eleventy)
+      - name: 'algorithmic layout and design'
+        url: https://every-layout.dev/
+      - name: micro-services and containerization
+        url: https://courses.mooc.fi/org/uh-cs/courses/devops-with-docker
+      - name: Svelte
+        url: https://svelte.dev/
+      - name: CUBE CSS
+        url: https://cube.fyi/
+      - name: 11ty (Eleventy)
+        url: https://www.11ty.dev/
 outro: 'Please make yourself at home.'
 ---
