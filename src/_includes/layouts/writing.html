@@ -10,5 +10,10 @@
     >
       Writing
     </h1>
+    <ul role="list">
+      {%- for post in collections.post -%}
+        <li><a href="{{ post.data.url }}">{{ post.data.title }}</a></li>
+      {%- endfor -%}
+      </ul>
 </article>
 {% endblock %}
