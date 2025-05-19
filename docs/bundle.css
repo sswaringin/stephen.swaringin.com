@@ -5,9 +5,11 @@
 
 @import './css/utilities/wrapper.css';
 @import './css/utilities/flow.css';
+@import './css/utilities/center.css';
 
 @import './css/compositions/cover.css';
 @import './css/compositions/cluster.css';
 @import './css/compositions/grid.css';
+@import './css/compositions/stack.css';
 
 @import './css/blocks/site-foot.css';
