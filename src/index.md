@@ -4,6 +4,7 @@ layout: 'layouts/home.html'
 intro:
   heading: 'hello'
   greeting: 'Welcome to my humble abode.'
+  name: "I'm Stephen Swaringin (SWAIR-in-jen)."
   summary: 'This place houses my latest thoughts, ideas, learning, etc.'
   # image: 'images/wait.png'
   # imageAlt: 'Spiderman pointing at Spiderman'
