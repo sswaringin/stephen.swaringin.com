@@ -15,3 +15,8 @@
   width: 3em;
   height: 3em;
 }
+
+.site-foot p,
+a {
+  font-size: var(--s-0);
+}
