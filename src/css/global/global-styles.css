@@ -100,7 +100,3 @@ main:focus {
   background: var(--color-light);
   color: var(--color-dark);
 }
-
-nav > a {
-  text-decoration: none;
-}

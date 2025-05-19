@@ -30,7 +30,7 @@
       <h2>{{ learning.heading }}</h2>
       <p>{{ learning.summary }}</p>
       <p>{{ learning.fixations.content }}</p>
-      <ul role="list">
+      <ul role="list" class="wrapper">
         {%- for fixation in learning.fixations.list -%}
         <li>{{ fixation }}</li>
         {%- endfor -%}
