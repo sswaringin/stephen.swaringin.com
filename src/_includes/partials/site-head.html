@@ -3,7 +3,18 @@
   <nav class="cluster" data-justify="flex-end">
     <ul role="list" class="cluster navigation">
       {% for item in navigation.items %}
-      <li><a href="{{ item.url }}">{{ item.text }}</a></li>
+      <li>
+        <a
+          href="{{ item.url }}"
+          {{
+          helpers.getLinkActiveState(item.url,
+          page.url)
+          |
+          safe
+          }}
+          >{{ item.text }}</a
+        >
+      </li>
       {% endfor %}
     </ul>
   </nav>
