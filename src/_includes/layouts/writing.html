@@ -4,14 +4,14 @@
     <h1
       style="
         font-family: var(--font-special);
-        font-size: var(--s-10);
+        font-size: var(--s-5);
         letter-spacing: var(--tracking);
       "
     >
       Writing
     </h1>
     <ul role="list">
-      {%- for post in collections.post -%}
+      {%- for post in collections.posts -%}
         <li><a href="{{ post.data.url }}">{{ post.data.title }}</a></li>
       {%- endfor -%}
       </ul>

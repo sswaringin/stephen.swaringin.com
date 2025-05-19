@@ -1,3 +1,4 @@
+import sortByDisplayOrder from "./src/utils/sort-by-display-order.js";
 export default async function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy('src/images');
   eleventyConfig.addPassthroughCopy('src/fonts');
@@ -6,9 +7,7 @@ export default async function (eleventyConfig) {
 
   /* posts collection */
   eleventyConfig.addCollection('posts', (collection) => {
-    return collection
-      .getFilteredByGlob('./src/posts/*.md')
-      .sort((a, b) => (Number(a.data.displayOrder) > Number(b.data.displayOrder) ? 1 : -1));
+    return sortByDisplayOrder(collection.getFilteredByGlob('./src/posts/*.md'));
   });
   return {
     markdownTemplateEngine: 'njk',
