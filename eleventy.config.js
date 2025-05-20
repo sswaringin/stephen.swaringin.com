@@ -6,9 +6,13 @@ export default async function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy('src/css');
 
   /* posts collection */
-  eleventyConfig.addCollection('posts', (collection) => {
-    return sortByDisplayOrder(collection.getFilteredByGlob('./src/posts/*.md'));
+  // eleventyConfig.addCollection('posts-featured', (collection) => {
+  //   return sortByDisplayOrder(collection.getFilteredByGlob('./src/posts/*.md'));
+  // });
+  eleventyConfig.addCollection('blog', (collection) => {
+    return [...collection.getFilteredByGlob('./src/posts/*.md')].reverse();
   });
+
   return {
     markdownTemplateEngine: 'njk',
     dataTemplateEngine: 'njk',

@@ -1,6 +1,6 @@
 ---
-tags: post
+tags: beta
 title: 'Blah'
-displayOrder: 1
-url: '/writing/post-1'
 ---
+
+insert content

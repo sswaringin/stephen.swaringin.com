@@ -1,6 +1,6 @@
 ---
-tags: post
+tags: alpha
 title: 'Post 0'
-displayOrder: 2
-url: '/writing/post-0'
 ---
+
+content
