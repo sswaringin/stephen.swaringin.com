@@ -14,11 +14,17 @@ title %} {% set pageHeaderSummary %}
   </li>
   {% endfor %}
 </ul>
-{% endif %} #} {% endset %}
+{% endif %} #} {% endset %} {% set recommendedPosts =
+helpers.getSiblingContent(collections.blog, page) %}
 
 <article class="wrapper">
   {% include "partials/page-header.html" %}
 
   <section class="cover">{{ content | safe }}</section>
 </article>
-{% endblock %}
+{% if recommendedPosts %}
+<footer>
+  {% set postListItems = recommendedPosts %} {% set postListHeadline = 'More
+  posts' %} {% include "partials/post-list.html" %}
+</footer>
+{% endif %} {% endblock %}
