@@ -4,7 +4,10 @@ this is a tag, grab those items instead as one large collection #} {% if tag %}
 {% set postListItems = collections[tag] %} {% set pageHeaderTitle = tag %} {%
 endif %} {% block content %}
 <article class="wrapper">
-  {% include "partials/page-header.html" %} {% include "partials/post-list.html"
-  %} {% if not tag %} {% include "partials/pagination.html" %} {% endif %}
+  <section class="cover">
+    {% include "partials/page-header.html" %} {% include
+    "partials/post-list.html" %} {% if not tag %} {% include
+    "partials/pagination.html" %} {% endif %}
+  </section>
 </article>
 {% endblock %}
