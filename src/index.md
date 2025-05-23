@@ -1,5 +1,6 @@
 ---
 title: 'stephen.swaringin.com'
+metaDesc: 'hello'
 layout: 'layouts/home.html'
 intro:
   heading: 'hello'
