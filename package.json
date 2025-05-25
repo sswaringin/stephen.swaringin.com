@@ -3,7 +3,8 @@
   "version": "0.0.0",
   "main": "eleventy.config.js",
   "scripts": {
-    "start": "npx @11ty/eleventy --serve"
+    "start": "npx gulp && concurrently \"npx gulp watch\" \"npx eleventy --serve\"",
+    "production": "NODE_ENV=production npx gulp && NODE_ENV=production npx eleventy"
   },
   "author": "Stephen Swaringin",
   "license": "MIT",
@@ -11,6 +12,11 @@
   "description": "",
   "dependencies": {
     "@11ty/eleventy": "^3.1.0",
-    "moment": "^2.30.1"
+    "concurrently": "^9.1.2",
+    "gulp": "^5.0.0",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-sass": "^6.0.1",
+    "moment": "^2.30.1",
+    "sass": "^1.89.0"
   }
 }
