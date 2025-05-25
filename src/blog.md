@@ -12,5 +12,3 @@ paginationPrevText: 'Newer posts'
 paginationNextText: 'Older posts'
 paginationAnchor: '#post-list'
 ---
-
-blog, blog, blog
