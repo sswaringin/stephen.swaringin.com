@@ -1,6 +1,9 @@
 {% extends "layouts/base.html" %} {% set pageHeaderTitle = title %} {% set
-pageHeaderSummary = content %} {% block content %}
+pageHeaderSummary = content %}{% block content %}
 <article class="wrapper">
-  <section class="cover">{% include "partials/page-header.html" %}</section>
+  <section class="cover">
+    {% include "partials/page-header.html" %} {% include
+    "partials/garden-list.html" %}
+  </section>
 </article>
 {% endblock %}

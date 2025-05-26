@@ -4,4 +4,6 @@ layout: 'layouts/garden.html'
 permalink: '/garden/index.html'
 ---
 
-content
+I'm gardening.
+
+I could say 'building a portfolio', but that feels too lifeless.

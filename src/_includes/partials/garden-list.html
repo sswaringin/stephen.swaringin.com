@@ -1,0 +1,14 @@
+<div class="flow" id="garden-list">
+  <div class="wrapper">
+    {% if gardenListHeadline %}
+    <h2>{{ gardenListHeadline }}</h2>
+    {% endif %}
+    <div>
+      <ol role="list">
+        {% for item in collections.garden %}
+        <li><a href="{{ item.url }}">{{ item.data.title }}</a></li>
+        {% endfor %}
+      </ol>
+    </div>
+  </div>
+</div>

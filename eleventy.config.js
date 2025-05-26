@@ -15,6 +15,10 @@ export default async function (eleventyConfig) {
     return [...collection.getFilteredByGlob('./src/posts/*.md')].reverse();
   });
 
+  eleventyConfig.addCollection('garden', (collection) => {
+    return collection.getFilteredByGlob('./src/garden/*.md');
+  })
+
   eleventyConfig.addFilter('dateFilter', dateFilter);
   eleventyConfig.addFilter('w3DateFilter', w3DateFilter);
 

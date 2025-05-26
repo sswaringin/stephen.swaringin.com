@@ -1,0 +1,7 @@
+{% extends "layouts/base.html" %} {% block content %}
+<article class="wrapper">
+  {% include "partials/page-header.html" %}
+
+  <section class="cover">{{ content | safe }}</section>
+</article>
+{% endblock %}

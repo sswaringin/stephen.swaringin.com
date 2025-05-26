@@ -1,0 +1,4 @@
+{
+  "layout": "layouts/plant.html",
+  "permalink": "/garden/{{ title | slugify }}/index.html"
+}
