@@ -23,8 +23,8 @@ helpers.getSiblingContent(collections.blog, page) %}
   <section class="cover">{{ content | safe }}</section>
 </article>
 {% if recommendedPosts %}
-<footer>
+<!-- <footer>
   {% set postListItems = recommendedPosts %} {% set postListHeadline = 'More
   posts' %} {% include "partials/post-list.html" %}
-</footer>
+</footer> -->
 {% endif %} {% endblock %}
