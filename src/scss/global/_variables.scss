@@ -1,0 +1,28 @@
+$color-dark: #131314;
+$color-light: #f4eded;
+
+:root {
+  --border-radius: var(--s-1);
+  --color-dark: #{$color-dark};
+  --color-light: #{$color-light};
+  --font-base: Garamond, serif;
+  --font-heading: 'BebasNeue', sans-serif;
+  --font-special: 'MrDafoe', cursive;
+  --gutter: var(--s-0);
+  --s--2: clamp(0.8681rem, 0.8448rem + 0.1486vw, 0.96rem);
+  --s--1: clamp(1.0417rem, 1.0017rem + 0.2559vw, 1.2rem);
+  --s-0: clamp(1.25rem, 1.1869rem + 0.404vw, 1.5rem);
+  --s-1: clamp(1.5rem, 1.4053rem + 0.6061vw, 1.875rem);
+  --s-2: clamp(1.8rem, 1.6627rem + 0.8788vw, 2.3438rem);
+  --s-3: clamp(2.16rem, 1.9656rem + 1.2439vw, 2.9297rem);
+  --s-4: clamp(2.592rem, 2.3218rem + 1.7295vw, 3.6621rem);
+  --s-5: clamp(3.1104rem, 2.7399rem + 2.3713vw, 4.5776rem);
+  --s-10: clamp(7.7397rem, 6.1664rem + 10.069vw, 13.9698rem);
+  --transition-base: 250ms ease;
+  --transition-movement: 200ms linear;
+  --transition-fade: 200ms ease;
+  --transition-bounce: 500ms cubic-bezier(0.5, 0.05, 0.2, 1.5);
+  --tracking: -0.05ch;
+  --tracking-s: -0.075ch;
+  --wrapper-max-width: 70rem;
+}
