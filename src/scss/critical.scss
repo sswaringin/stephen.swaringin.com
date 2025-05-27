@@ -2,6 +2,9 @@
 @use 'global/variables';
 @use 'global/global-styles';
 
+@use 'compositions/cluster';
+@use 'compositions/cover';
+
 @use 'utilities/wrapper';
 @use 'utilities/flow';
 @use 'utilities/center';

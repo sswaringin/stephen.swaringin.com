@@ -1,0 +1,22 @@
+.cover {
+  display: flex;
+  flex-direction: column;
+  min-block-size: 100vh;
+  padding: 1rem;
+
+  > * {
+    margin-block: 1rem;
+  }
+
+  > :first-child:not(.principal) {
+    margin-block-start: 0;
+  }
+
+  > :last-child:not(.principal) {
+    margin-block-end: 0;
+  }
+
+  > .principal {
+    margin-block: auto;
+  }
+}
