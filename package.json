@@ -7,7 +7,6 @@
     "production": "NODE_ENV=production npx gulp && NODE_ENV=production npx eleventy"
   },
   "author": "Stephen Swaringin",
-  "license": "MIT",
   "type": "module",
   "description": "",
   "dependencies": {
