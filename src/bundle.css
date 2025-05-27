@@ -1,10 +1,5 @@
-@import './css/global/reset.css';
 @import './css/global/variables.css';
 @import './css/global/global-styles.css';
-
-@import './css/utilities/wrapper.css';
-@import './css/utilities/flow.css';
-@import './css/utilities/center.css';
 
 @import './css/compositions/cover.css';
 @import './css/compositions/cluster.css';

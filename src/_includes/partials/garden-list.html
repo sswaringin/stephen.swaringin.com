@@ -6,7 +6,10 @@
     <div>
       <ol role="list">
         {% for item in collections.garden %}
-        <li><a href="{{ item.url }}">{{ item.data.title }}</a></li>
+        <li>
+          <a href="{{ item.url }}">{{ item.data.title }}</a>
+          <hr />
+        </li>
         {% endfor %}
       </ol>
     </div>
