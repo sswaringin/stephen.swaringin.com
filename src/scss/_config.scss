@@ -40,35 +40,37 @@ $gorko-colors: (
   * to enabling/disabling pre-built components/utilities.
   */
 $gorko-config: (
-  'bg': (
-    'items': $gorko-colors,
-    'output': 'standard',
-    'property': 'background',
-  ),
-  'color': (
-    'items': $gorko-colors,
-    'output': 'standard',
-    'property': 'color',
-  ),
-  'flow-space': (
-    'items': $gorko-size-scale,
-    'output': 'responsive',
-    'property': '--flow-space',
-  ),
-  'font': (
-    'items': (
-      'base': 'Garamond, serif',
-      'heading': 'BebasNeue, sans-serif',
-      'special': 'MrDafoe, cursive',
+  // 'bg': (
+  //   'items': $gorko-colors,
+  //   'output': 'standard',
+  //   'property': 'background',
+  // ),
+  // 'color': (
+  //   'items': $gorko-colors,
+  //   'output': 'standard',
+  //   'property': 'color',
+  // ),
+  'flow-space':
+    (
+      'items': $gorko-size-scale,
+      'output': 'responsive',
+      'property': '--flow-space',
     ),
-    'output': 'standard',
-    'property': 'font-family',
-  ),
-  'gap-top': (
-    'items': $gorko-size-scale,
-    'output': 'responsive',
-    'property': 'margin-top',
-  ),
+  // 'font': (
+  //   'items': (
+  //     'base': 'Garamond, serif',
+  //     'heading': 'BebasNeue, sans-serif',
+  //     'special': 'MrDafoe, cursive',
+  //   ),
+  //   'output': 'standard',
+  //   'property': 'font-family',
+  // ),
+  'gap-top':
+    (
+      'items': $gorko-size-scale,
+      'output': 'responsive',
+      'property': 'margin-top',
+    ),
   'leading': (
     'items': (
       'loose': 1.7,
@@ -104,5 +106,5 @@ $gorko-config: (
   'breakpoints': (
     'md': '(min-width: 37em)',
     'lg': '(min-width: 62em)',
-  ),
+  )
 );

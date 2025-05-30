@@ -1,3 +1,9 @@
+@use 'config';
+@use '../../node_modules/gorko/gorko.scss' with (
+  $gorko-config: config.$gorko-config
+);
+@use '../../node_modules/gorko/src/functions/get-size';
+
 @use 'reset';
 @use 'global/variables';
 @use 'global/global-styles';
@@ -5,6 +11,16 @@
 @use 'compositions/cluster';
 @use 'compositions/cover';
 
-@use 'utilities/wrapper';
-@use 'utilities/flow';
 @use 'utilities/center';
+@use 'utilities/flow';
+@use 'utilities/radius';
+@use 'utilities/wrapper';
+
+// body {
+// background: get-color('light');
+// color: get-color('dark-shade');
+// line-height: 1.5;
+// font-size: get-size.get-size(config.$gorko-size-scale, '500');
+
+// @include apply-utility('font', 'base');
+// }
