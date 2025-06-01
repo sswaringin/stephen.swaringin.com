@@ -1,0 +1,13 @@
+.card {
+  background: var(--color-dark);
+  border: 1px gray solid;
+  border-radius: var(--border-radius);
+  color: var(--color-light);
+  padding: var(--s-1);
+  max-width: unset;
+}
+
+.card ::selection {
+  color: var(--color-dark);
+  background: var(--color-secondary);
+}
