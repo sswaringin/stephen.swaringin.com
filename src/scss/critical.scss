@@ -1,8 +1,8 @@
 @use 'config';
-@use '../../node_modules/gorko/gorko.scss' with (
-  $gorko-config: config.$gorko-config
+@use '../../node_modules/forko/forko.scss' with (
+  $forko-config: config.$forko-config
 );
-@use '../../node_modules/gorko/src/functions/get-size';
+@use '../../node_modules/forko/src/functions/get-size';
 
 @use 'reset';
 @use 'global/variables';

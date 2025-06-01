@@ -4,7 +4,7 @@
  * you keep it at 1rem because that is the root font size. You
  * can set it to whatever you like and whatever unit you like.
  */
-$gorko-base-size: 1rem;
+$forko-base-size: 1rem;
 
 /**
   * SIZE SCALE
@@ -13,15 +13,15 @@ $gorko-base-size: 1rem;
   * calcuated off the base size, so change that and cascade across
   * your whole project.
   */
-$gorko-size-scale: (
-  '300': $gorko-base-size * 0.75,
-  '400': $gorko-base-size,
-  '500': $gorko-base-size * 1.33,
-  '600': $gorko-base-size * 1.77,
-  '700': $gorko-base-size * 2.36,
-  '800': $gorko-base-size * 3.15,
-  '900': $gorko-base-size * 4.2,
-  'major': $gorko-base-size * 5.6,
+$forko-size-scale: (
+  '300': $forko-base-size * 0.75,
+  '400': $forko-base-size,
+  '500': $forko-base-size * 1.33,
+  '600': $forko-base-size * 1.77,
+  '700': $forko-base-size * 2.36,
+  '800': $forko-base-size * 3.15,
+  '900': $forko-base-size * 4.2,
+  'major': $forko-base-size * 5.6,
 );
 
 /**
@@ -29,7 +29,7 @@ $gorko-size-scale: (
   * Colors are shared between backgrounds and text by default. 
   * You can also use them to power borders, fills or shadows, for example.
   */
-$gorko-colors: (
+$forko-colors: (
   'dark': #131314,
   'light': #f4eded,
 );
@@ -39,20 +39,20 @@ $gorko-colors: (
   * This powers everything from utility class generation to breakpoints
   * to enabling/disabling pre-built components/utilities.
   */
-$gorko-config: (
+$forko-config: (
   // 'bg': (
-  //   'items': $gorko-colors,
+  //   'items': $forko-colors,
   //   'output': 'standard',
   //   'property': 'background',
   // ),
   // 'color': (
-  //   'items': $gorko-colors,
+  //   'items': $forko-colors,
   //   'output': 'standard',
   //   'property': 'color',
   // ),
   'flow-space':
     (
-      'items': $gorko-size-scale,
+      'items': $forko-size-scale,
       'output': 'responsive',
       'property': '--flow-space',
     ),
@@ -67,7 +67,7 @@ $gorko-config: (
   // ),
   'gap-top':
     (
-      'items': $gorko-size-scale,
+      'items': $forko-size-scale,
       'output': 'responsive',
       'property': 'margin-top',
     ),
@@ -91,7 +91,7 @@ $gorko-config: (
     'property': 'max-width',
   ),
   'text': (
-    'items': $gorko-size-scale,
+    'items': $forko-size-scale,
     'output': 'responsive',
     'property': 'font-size',
   ),
