@@ -1,4 +1,12 @@
 ---
 title: This Website
-summary: 'built with: 11ty and Sass'
+summary: 'stephen.swaringin.com'
 ---
+
+work in progress.
+
+built with:
+
+- 11ty
+- Sass
+- GitHub Pages
