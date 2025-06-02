@@ -19,7 +19,9 @@
 @use 'utilities/flow';
 @use 'utilities/frame';
 @use 'utilities/radius';
+@use 'utilities/visually-hidden';
 @use 'utilities/wrapper';
 
 @use 'blocks/card';
 @use 'blocks/garden';
+@use 'blocks/post';

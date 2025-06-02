@@ -1,12 +1,20 @@
-<div class="flow" id="post-list">
-  <div class="wrapper">
+<div id="post-list">
+  <div>
     {% if postListHeadline %}
     <h2>{{ postListHeadline }}</h2>
     {% endif %}
     <div>
       <ol role="list">
         {% for item in postListItems %}
-        <li><a href="{{ item.url }}">{{ item.data.title }}</a></li>
+        <li class="[ cluster ]">
+          <a href="{{ item.url }}">{{ item.data.title }}</a>
+          <!-- <div class="[ text-500 ]">{{ item.date | dateFilter }}</div>
+          <div class="[ cluster ]">
+            {% for tag in item.data.tags %}
+            <div class="[ box ] [ text-500 font-sans ]">{{ tag }}</div>
+            {% endfor %}
+          </div> -->
+        </li>
         {% endfor %}
       </ol>
     </div>

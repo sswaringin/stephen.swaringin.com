@@ -32,7 +32,6 @@ $forko-size-scale: (
 $forko-colors: (
   'dark': #131314,
   'light': #f4eded,
-  'test': red,
 );
 
 /**
@@ -57,21 +56,20 @@ $forko-config: (
       'output': 'responsive',
       'property': '--flow-space',
     ),
-  // 'font': (
-  //   'items': (
-  //     'base': 'Garamond, serif',
-  //     'heading': 'BebasNeue, sans-serif',
-  //     'special': 'MrDafoe, cursive',
-  //   ),
-  //   'output': 'standard',
-  //   'property': 'font-family',
-  // ),
-  'gap-top':
-    (
-      'items': $forko-size-scale,
-      'output': 'responsive',
-      'property': 'margin-top',
+  'font': (
+    'items': (
+      'base': 'Garamond, serif',
+      'sans': 'BebasNeue, sans-serif',
+      'special': 'MrDafoe, cursive',
     ),
+    'output': 'standard',
+    'property': 'font-family',
+  ),
+  'gap-top': (
+    'items': $forko-size-scale,
+    'output': 'responsive',
+    'property': 'margin-top',
+  ),
   'leading': (
     'items': (
       'loose': 1.7,
