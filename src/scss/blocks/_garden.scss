@@ -1,0 +1,8 @@
+.garden__item {
+  & a {
+    text-decoration: none;
+  }
+  & :hover {
+    cursor: pointer;
+  }
+}
