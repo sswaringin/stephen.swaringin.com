@@ -1,8 +1,9 @@
 @use 'config';
 @use '../../node_modules/forko/forko.scss' with (
-  $forko-config: config.$forko-config
+  $forko-config: config.$forko-config,
+  $forko-colors: config.$forko-colors,
+  $forko-size-scale: config.$forko-size-scale
 );
-@use '../../node_modules/forko/src/functions/get-size';
 
 @use 'reset';
 @use 'global/variables';
