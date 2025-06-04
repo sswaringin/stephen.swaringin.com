@@ -19,7 +19,7 @@ title %} {% set pageHeaderSummary %}
   {% endif %} {% endset %} {% set recommendedPosts =
   helpers.getSiblingContent(collections.blog, page) %}
 
-  <article class="[ wrapper ]">
+  <article class="[ wrapper flow ]" style="--flow-space: 3rem">
     {% include "partials/page-header.html" %}
 
     <section>{{ content | safe }}</section>
