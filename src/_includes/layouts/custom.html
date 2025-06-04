@@ -1,0 +1,9 @@
+{% extends "layouts/base.html" %} {% block content %} {% set pageHeaderTitle =
+title %}
+<article class="[ wrapper ]">
+  {% include "partials/page-header.html" %}
+
+  <section>{{ content | safe }}</section>
+  <button>I'm a custom layout</button>
+</article>
+{% endblock %}

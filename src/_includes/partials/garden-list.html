@@ -10,6 +10,17 @@
           <div class="[ stack ]">
             <h3>{{ item.data.title }}</h3>
             {{ item.data.summary }}
+            <div class="[ cluster ]">
+              <h4
+                class="[ font-sans text-500 ]"
+                style="margin: 0; letter-spacing: 0.025em"
+              >
+                updated:
+              </h4>
+              <time class="[ text-500 ]"
+                >{{ item.data.date | dateFilter }}</time
+              >
+            </div>
           </div>
         </a>
       </li>

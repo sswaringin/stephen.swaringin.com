@@ -1,8 +1,28 @@
 {% extends "layouts/base.html" %} {% block content %} {% set pageHeaderTitle =
-title %}
-<article class="[ wrapper ]">
+title %} {% set pageHeaderSummary %}
+<div class="cluster">
+  <div>
+    <h2
+      class="[ font-sans text-500 ]"
+      style="margin: 0; letter-spacing: 0.025em"
+    >
+      updated
+    </h2>
+    <time class="[ text-500 ]">{{ page.date | dateFilter }}</time>
+  </div>
+  <div>
+    <h2
+      class="[ font-sans text-500 ]"
+      style="margin: 0; letter-spacing: 0.025em"
+    >
+      created
+    </h2>
+    <time class="[ text-500 ]">{{ created | dateFilter }}</time>
+  </div>
+</div>
+{% endset %}
+<article class="[ wrapper flow ]" style="--flow-space: 3rem">
   {% include "partials/page-header.html" %}
-
   <section>{{ content | safe }}</section>
 </article>
 {% endblock %}
